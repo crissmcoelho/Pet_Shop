@@ -54,8 +54,7 @@ package Pet_shop.model;
 			switch(this.categoria) {
 				case 1 -> categoria = "Medicamento";
 				case 2 -> categoria = "Roupa";
-				case 3 -> categoria = "Brinquedo";
-				case 4 -> categoria = "Ração";
+				
 				default -> categoria = "Inválido";
 			}
 			
