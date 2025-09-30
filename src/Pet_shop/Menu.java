@@ -3,6 +3,7 @@ package Pet_shop;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
+import Pet_shop.model.Medicamento;
 import Pet_shop.util.Cores;
 
 public class Menu {
@@ -14,6 +15,9 @@ public class Menu {
 	public static void main(String[] args) {
 
 		int opcao;
+		
+		Medicamento m1 = new Medicamento(1, "Dipirona", 1,2.30, "Generico");
+		m1.visualizar();
 
 		
 
@@ -22,7 +26,7 @@ public class Menu {
 			System.out.println(Cores.TEXT_YELLOW + Cores.ANSI_BLACK_BACKGROUND
 					+ "*****************************************************");
 			System.out.println("                                                     ");
-			System.out.println("            PET SHO CRISTINA                         ");
+			System.out.println("            PET SHOP CRISTINA                         ");
 			System.out.println("                                                     ");
 			System.out.println("*****************************************************");
 			System.out.println("                                                     ");
